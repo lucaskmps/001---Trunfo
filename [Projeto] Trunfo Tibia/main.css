@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    font-family: 'Changa', sans-serif;
+}
+body{
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    z-index: -1;
+}
+main{
+    background-color: rgba(0,0,0,.5);
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    grid-template-rows: 1fr 3fr .5fr;
+    grid-template-areas: 
+    "logo"
+    "content"
+    "buttons";
+}
+/* Header */
+
+#logo{
+    grid-area: logo;
+    justify-self: center;
+    align-self: center;
+
+    display: flex;
+    justify-content: center;
+}
+#logo img{
+    width: 70%;
+    height: auto;
+
+}
+
+/* Buttons 'GENERATE' container */
+#buttons{
+    grid-area: buttons;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+#buttons .randomize{
+    height: 40%;
+    width: 100px;
+    cursor: pointer;
+
+    border: 1px solid white;
+    background: rgba(0,0,0,.5);
+    border-radius: 20px;
+
+    color: white;
+    font-size: .8em;
+}
+#buttons .randomize:hover{
+    background: white;
+    color: black;
+}
+
+#buttons #p2Button{
+    visibility: hidden;
+}
+
+/* Main Content (Players Cards)*/
+#main{
+    grid-area: content;
+
+
+    height: 80%;
+    margin: auto;
+    margin-top: 0px;
+    display: flex;
+}
+
+#main .playerCard{
+    width: 300px;
+    height: 400px;
+    background: rgba(0,0,0,.7);
+    border-radius: 10px;
+}
+
+#main #midContainer{
+
+    height: 400px;
+    width: 300px;
+
+    margin: 0 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#midContainer #versusContainer img{
+    height: 120px;
+    width: auto;
+
+    margin-bottom: 50px;
+}
+
+#midContainer #battleButton{
+    display: flex;
+    line-height: 20px;
+    color: white;
+    background: rgb(218, 24, 24);
+    border:1px solid white;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+    font-size: 15pt;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+
+#midContainer #battleButton:hover{
+    background: rgb(245, 30, 30);
+}
+
+#midContainer #battleButton img{
+    height: 20px;
+    width: auto;
+    line-height: 20px;
+    margin-right: 10px;
+}

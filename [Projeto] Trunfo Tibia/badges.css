@@ -1,0 +1,123 @@
+.badgesContainer{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    top: -20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+}
+.badgesContainer2{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    top: -20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+}
+/**/
+.druid{
+    border-radius: 50%;
+    display: none;
+
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.knight{
+    border-radius: 50%;
+    display: none;
+
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.paladin{
+    border-radius: 50%;
+    display: none;
+
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.sorcerer{
+    border-radius: 50%;
+    display: none;
+
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+/**/
+
+.knight img, .druid img, .paladin img, .sorcerer img{
+    width: 35px;
+    height: auto;
+    position: absolute;
+    left: -30px;
+    background: rgb(26, 26, 29);
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.knight p, .druid p, .paladin p, .sorcerer p{
+    color: white;
+    font-size: 9pt;
+    margin-left: 10px;
+
+    border: 1px solid white;
+    padding: 2px 30px;
+    border-radius: 2px;
+}
+
+.paladin p{
+    background: rgb(17, 78, 35);
+}
+.knight p{
+    background: black;
+}
+.sorcerer p{
+    background: rgb(177, 9, 9);
+}
+.druid p{
+    background: rgb(58, 142, 170);
+}
+
+
+/* ################################# AVERAGE BADGES */
+
+.averageBadges1{
+    position: absolute;
+    top: -12px;
+    right: 11px;
+}
+.averageBadges2{
+    position: absolute;
+    right: 25px;
+    top: 8px;
+
+}
+
+.elite , .pro , .master{
+    height: 80px;
+    width: auto;
+
+    display: none;
+}
+
+.elite img.flag , .pro img.flag , .master img.flag{
+    height: 100%;
+    width: auto;
+}
+
+.elite .gif, .pro .gif, .master .gif{
+    position: absolute;
+    right: 14px;
+    bottom: 30px;
+}

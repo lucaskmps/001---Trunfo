@@ -1,0 +1,39 @@
+#killsContainer{
+    position: absolute;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+    display: flex;
+}
+
+/**/
+#killsContainer #skullContainer{
+    position: absolute;
+    top: -260px;
+    right: 123px;
+
+}
+    #skullContainer img{
+        height: 13px;
+        width: auto;
+
+        display: none;
+    }
+
+/**/
+#killsContainer #numberKills{
+    margin: 0 5px;
+    font-size: 15pt;
+    
+    display: none;
+}
+
+#killsContainer #restText{
+    display: none;
+}

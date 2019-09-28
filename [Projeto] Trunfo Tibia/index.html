@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Changa:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="badges.css">
+    <link rel="stylesheet" href="skulls.css">
+    <title>Tibia Trunfo</title>
+</head>
+
+<body>
+    <main>
+
+        <div id="logo"><img src="img/logo.png" alt="" /></div>
+
+        <section id="main">
+
+            <!-- Player Card -->
+            <div class="playerCard">
+
+                <div class="charName-box">
+                    <h2>Thainá</h2> <!-- 13 lenght for the best -->
+                    <div class="hpBar"></div>
+                </div>
+
+                <div class="avatarBox">
+                    <img src="img/chars/citizen.png" alt="">
+                </div>
+
+                <div class="statsBox">
+                    <div class="hpBox">
+                        <img src="img/ui/heart.png" alt="">
+                        <p>Health :</p>
+                    </div>
+                    <div class="hpBox">
+                        <img src="img/ui/atk.png" alt="">
+                        <p>Melee :</p>
+                    </div>
+                    <div class="hpBox">
+                        <img src="img/ui/mag.png" alt="">
+                        <p>Magic :</p>
+                    </div>
+                    <div class="hpBox">
+                        <img src="img/ui/spd.png" alt="">
+                        <p>Speed :</p>
+                    </div>
+                </div>
+
+                <div class="numbersBox">
+                    <div class="numbers">
+                        <p id="hp1">50</p>
+                    </div>
+                    <div class="numbers">
+                        <p id="at1">50</p>
+                    </div>
+                    <div class="numbers">
+                        <p id="mg1">50</p>
+                    </div>
+                    <div class="numbers">
+                        <p id="sp1">50</p>
+                    </div>
+                </div>
+
+                <!-- Badges -->
+                <div class="badgesContainer">
+                    <div class="druid">
+                        <img src="img/ui/druid.gif" alt="">
+                        <p>Druid</p>
+                    </div>
+                    <div class="knight">
+                        <img src="img/ui/knight.gif" alt="">
+                        <p>Knight</p>
+                    </div>
+                    <div class="paladin">
+                        <img src="img/ui/paladin.gif" alt="">
+                        <p>Paladin</p>
+                    </div>
+                    <div class="sorcerer">
+                        <img src="img/ui/sorcerer.gif" alt="">
+                        <p>Sorcerer</p>
+                    </div>
+                </div>
+
+                <!-- Average Badges -->
+                <div class="averageBadges1">
+                    <div class="elite">
+                        <img class="flag" src="img/ui/elite.png" alt="">
+                        <img class="gif" src="img/ui/eliteGIF.gif" alt="">
+                    </div>
+                    <div class="pro">
+                        <img class="flag" src="img/ui/pro.png" alt="">
+                        <img class="gif" src="img/ui/proGIF.gif" alt="">
+                    </div>
+                    <div class="master">
+                        <img class="flag" src="img/ui/master.png" alt="">
+                        <img class="gif" src="img/ui/masterGIF.gif" alt="">
+                    </div>
+                </div>
+
+                <!-- Kill Count & Skulls -->
+                <div id="killsContainer">
+                    <div id="skullContainer">
+                        <img src="img/ui/whiteskull.gif" alt="">
+                    </div>
+                    <p id="numberKills">0</p> 
+                    <p id="restText">kill(s).</p>
+                </div>
+            </div>
+
+            <!-- #########################################################################-->
+            <!-- Battle Button -->
+
+            <section id="midContainer">
+                <div id="versusContainer">
+                    <img src="img/ui/vs.png" alt="">
+                </div>
+                <div id="battleButton">
+                    <img src="img/ui/shield.svg.svg" alt="">
+                    Battle
+                </div>
+            </section>
+            <!-- #########################################################################-->
+
+
+            <!-- PC Card -->
+            <div class="playerCard">
+
+                <div class="charName-box">
+                    <h2>Enemy</h2>
+                    <div class="hpBar" id="hpBarEnemy"></div>
+                </div>
+
+                <div class="avatarBox2">
+                    <img src="img/chars/citizen.png" alt="">
+                </div>
+
+                <div class="statsBox">
+                    <div class="hpBox">
+                        <img src="img/ui/heart.png" alt="">
+                        <p>Health :</p>
+                    </div>
+                    <div class="hpBox">
+                        <img src="img/ui/atk.png" alt="">
+                        <p>Melee :</p>
+                    </div>
+                    <div class="hpBox">
+                        <img src="img/ui/mag.png" alt="">
+                        <p>Magic :</p>
+                    </div>
+                    <div class="hpBox">
+                        <img src="img/ui/spd.png" alt="">
+                        <p>Speed :</p>
+                    </div>
+                </div>
+
+                <div class="numbersBox">
+                    <div class="numbers">
+                        <p id="hp2">50</p>
+                    </div>
+                    <div class="numbers">
+                        <p id="at2">50</p>
+                    </div>
+                    <div class="numbers">
+                        <p id="mg2">50</p>
+                    </div>
+                    <div class="numbers">
+                        <p id="sp2">50</p>
+                    </div>
+                </div>
+                <!-- Badges -->
+                <div class="badgesContainer2">
+                    <div class="druid">
+                        <img src="img/ui/druid.gif" alt="">
+                        <p>Druid</p>
+                    </div>
+                    <div class="knight">
+                        <img src="img/ui/knight.gif" alt="">
+                        <p>Knight</p>
+                    </div>
+                    <div class="paladin">
+                        <img src="img/ui/paladin.gif" alt="">
+                        <p>Paladin</p>
+                    </div>
+                    <div class="sorcerer">
+                        <img src="img/ui/sorcerer.gif" alt="">
+                        <p>Sorcerer</p>
+                    </div>
+
+                    <!-- Average Badges -->
+                    <div class="averageBadges2">
+                        <div class="elite">
+                            <img class="flag" src="img/ui/elite.png" alt="">
+                            <img class="gif" src="img/ui/eliteGIF.gif" alt="">
+                        </div>
+                        <div class="pro">
+                            <img class="flag" src="img/ui/pro.png" alt="">
+                            <img class="gif" src="img/ui/proGIF.gif" alt="">
+                        </div>
+                        <div class="master">
+                            <img class="flag" src="img/ui/master.png" alt="">
+                            <img class="gif" src="img/ui/masterGIF.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="buttons">
+            <button class="randomize" id="p1Button">New Char</button>
+            <button class="randomize" id="p2Button">Generate</button>
+        </div>
+
+
+
+    </main>
+    <script src="scripts/generateNumbers.js"></script>
+    <script src="scripts/getVocation.js"></script>
+    <script src="scripts/averageBadge.js"></script>
+    <script src="scripts/outfit.js"></script>
+    <script src="scripts/battle.js"></script>
+</body>
+
+</html>
